@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #24272e;
+}
+
+header {
+  padding: 20px;
+  background-color: white;
+}
+
+header > h1 {
+  color: blueviolet;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+}
+
+.score-board {
+  margin: 20px auto;
+  border: 4px solid white;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  color: white;
+  font-size: 47px;
+  padding: 15px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+}
+
+.pin {
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  padding: 2px 8px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#player-pin {
+  position: absolute;
+  top: 33px;
+  left: -30px;
+}
+
+#computer-pin {
+  position: absolute;
+  top: 33px;
+  right: -50px;
+}
+
+.points-selector {
+  padding-left: 30px;
+  font-size: 30px;
+  color: antiquewhite;
+}
+
+.points {
+  border: none;
+  color: white;
+  background-color: #24272e;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.button {
+  margin-left: 30px;
+  padding: 5px 10px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.result > p {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.options {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.hand-gesture {
+  border: 4px solid white;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding: 20px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.hand-gesture:hover {
+  cursor: pointer;
+  background-color: rgb(128, 123, 123);
+}
+
+.next-move {
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.link {
+  font-size: xx-small;
+  color: #24272e;
+}
+
+.green-glow {
+  border: 4px solid green;
+  box-shadow: 0 0 10px rgb(6, 206, 6);
+}
+
+.red-glow {
+  border: 4px solid rgb(102, 5, 5);
+  box-shadow: 0 0 10px red;
+}
+
+.orange-glow {
+  border: 4px solid rgb(184, 122, 7);
+  box-shadow: 0 0 10px orange;
+}
